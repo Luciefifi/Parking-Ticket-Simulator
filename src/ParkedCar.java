@@ -27,6 +27,10 @@ public class ParkedCar {
         this.model = model;
     }
 
+    public String getModel(){
+        return model;
+    }
+
     public void setColor(String color) {
         this.color = color;
     }
@@ -45,6 +49,10 @@ public class ParkedCar {
 
     public void setParkedMinutes(int parkedMinutes) {
         this.parkedMinutes = parkedMinutes;
+    }
+
+    public int getParkedMinutes() {
+        return parkedMinutes;
     }
 
     @Override
