@@ -1,6 +1,6 @@
 public class ParkingTicket {
     private String make;
-    private String model;
+    private final String model;
     private String color;
     private String licenseNumber;
     private double fine;
